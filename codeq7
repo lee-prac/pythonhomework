@@ -1,0 +1,4 @@
+def solution(num1, num2):
+    answer = int(num1 / num2 * 1000)#num1과 num2를 나눠주고 1000을 곱한 후에
+    # int를 사용하여 식을 감싸주어 소수점을 버림
+    return answer
